@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <a href="#"><img src="./img/logo-w.png" alt="Logo" class="header-logo"></a>
+            <div class="responsive-design">
+                <a href="#"><img src="./img/responsive-desktop.png" alt="Desktop"></a>
+                <a href="#"><img src="./img/responsive-laptop.png" alt="Laptop"></a>
+                <a href="#"><img src="./img/responsive-tablet.png" alt="Tablet"></a>
+                <a href="#"><img src="./img/responsive-phone-horizontal.png" alt="Phone-horizontal"></a>
+                <a href="#"><img src="./img/responsive-phone.png" alt="Phone"></a>
+            </div>
+            <button class="header-close"><img src="./img/icon-close.png" alt="Close-button" ></button>
+        </div>
+        <div class="nav-container">
+            <button onclick="navClosing()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="small-container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Page 1</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-div">
+            <nav>
+                <button class="menu-button" onclick="navOpenning()"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section 1-->
+    <section class="section-1">
+        <div class="container">
+            <h3>homemade recipes</h3>
+            <h1>Bakery and Confectionery</h1>
+            <p>Image from <a href="#">Freepik</a></p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section-2">
+        <div class="container">
+            <h3>what we do</h3>
+            <p class="section2-header">Our Products</p>
+            <div class="section2-grid">
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/Break.png" alt="Bread"></div>
+                    <p class="grid-header">Bread</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/croissant.png" alt="Bread"></div>
+                    <p class="grid-header">Croissant</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/Cupcake.png" alt="Bread"></div>
+                    <p class="grid-header">Cupcake</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/Cookies.png" alt="Bread"></div>
+                    <p class="grid-header">Cookies</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/Donuts.png" alt="Bread"></div>
+                    <p class="grid-header">Donuts</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-img"><img src="./img/Cakes.png" alt="Bread"></div>
+                    <p class="grid-header">Cakes</p>
+                    <p class="grid-text">Sample text. Click to select the Text Element.</p>
+                </div>
+            </div>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section-3">
+        <div class="container">
+            <div class="section3-content">
+                <div class="section3-text-part">
+                    <p class="sec3-text1">about company</p>
+                    <h2>Creating the best-tasting bread and desserts</h2>
+                    <p class="sec3-text2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <p class="sec3-text3">Image from <a href="#">Freepik</a></p>
+                    <button>Read More</button>
+                </div>
+                <div class="section3-image-part">
+                    <img src="./img/aboutcomp-img.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yellow part -->
+    <div class="yellow-div">
+        <h1>40% discount after 8.00 pm!</h1>
+        <button>CONTACT US</button>
+    </div>
+
+    <!-- Section 4 -->
+    <section class="section-4">
+        <div class="container">
+            <h1>Our Bread</h1>
+            <p class="section4-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="./img/our-bread-1.jpeg">
+                    <div class="grid-text">
+                        <h3>Original</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        <p class="price">$18.00</p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="./img/our-bread-2.jpeg">
+                    <div class="grid-text">
+                        <h3>Sweet</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        <p class="price">$15.00</p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="./img/our-bread-3.jpeg">
+                    <div class="grid-text">
+                        <h3>Yeast-free</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        <p class="price">$25.00</p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="./img/our-bread-4.jpeg">
+                    <div class="grid-text">
+                        <h3>Grain</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        <p class="price">$16.00</p>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="section-5">
+        <div class="container">
+            <div class="section5-content">
+                <div class="section5-text-part">
+                    <p class="sec5-text1">about company</p>
+                    <h2>We Love desserts, and coffee</h2>
+                    <p class="sec5-text2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <p class="sec5-text3">Image from <a href="#">Freepik</a></p>
+                    <button>Read More</button>
+                </div>
+                <div class="section5-image-part">
+                    <img src="./img/section5-image.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section class="section-6">
+        <div class="container">
+            <h3>what we do</h3>
+            <p class="section6-header">Our Products</p>
+            <div class="section6-flex">
+                <div class="section6-flex-item">
+                    <div class="flex-img"><img src="./img/Break.png" alt="Bread"></div>
+                    <p class="number">300</p>
+                    <p class="text">Bread</p>
+                </div>
+                <div class="section6-flex-item">
+                    <div class="flex-img"><img src="./img/croissant.png" alt="Bread"></div>
+                    <p class="number">500</p>
+                    <p class="text">Croissant</p>
+                </div>
+                <div class="section6-flex-item">
+                    <div class="flex-img"><img src="./img/Cupcake.png" alt="Bread"></div>
+                    <p class="number">250</p>
+                    <p class="text">Cupcake</p>
+                </div>
+            </div>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <!-- Section 7 -->
+    <section class="section-7">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/slider-image1.jpeg" class="d-block" >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/slider-image2.jpeg" class="d-block ">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/slider-image3.jpeg" class="d-block ">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/slider-image4.jpeg" class="d-block ">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <!-- Section 8 -->
+    <section class="section-8">
+        <div class="container">
+            <h1>Welcome</h1>
+            <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money on we.</p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <!-- Section 9 -->
+    <section class="section-9">
+        <div class="container">
+            <div class="section9-content">
+                <div class="section9-text-part">
+                    <h2>Contact Us</h2>
+                    <p class="sec9-text2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <p class="sec9-text3">Image from <a href="#">Freepik</a></p>
+                    <div class="contact">
+                        <div class="phone"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <p class="call-text">Call Us Anytime</p>
+                            <p class="phone-number">+92 555 77 88</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section9-image-part">
+                    <img src="./img/Contactus-image.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text1">Sample text. Click to select the Text Element.</p>
+            <p class="footer-text2">This site was created with the <a href="#">Nicepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="./script.js"></script>
+</body>
+</html>
